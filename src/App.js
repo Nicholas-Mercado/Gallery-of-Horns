@@ -1,17 +1,16 @@
 import React from "react";
 import './App.css';
+import Header from './Header.js'
+import Footer from './Footer.js'
+import Main from './Main'
 
 class App extends React.Component{
   render(){
     return(
     <>
-      <header>
-        <h1> Gallery of Horns!</h1>
-      </header>
-      <main>
-        <h3>goat1</h3>
-        <p> bullshit</p>
-      </main>
+      <Header />
+      <Main />
+      <Footer />
     </>
     );
 
