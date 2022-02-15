@@ -23,7 +23,7 @@ class HornedBeast extends React.Component {
       <Row md={3}>
         {Array.from({ length: 1 }).map((_, index) => (
           <Col lg={'auto'}>
-            <Card style={{ width: '20rem' }}>
+            <Card style={{ width: '33rem' }} >
               <Card.Img onClick={this.handleWaves} src={this.props.image_url} alt={this.props.description} title={this.props.title} />
               <Card.Body>
                 <Card.Title>{this.props.title}</Card.Title>
