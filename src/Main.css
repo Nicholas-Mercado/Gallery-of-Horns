@@ -3,3 +3,7 @@ main {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+
+Card {
+  margin: 5%;
+}
