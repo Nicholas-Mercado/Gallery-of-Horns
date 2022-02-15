@@ -40,3 +40,28 @@
 body{
   background-color: aliceblue;
 }
+
+header{
+  display: flex;
+  justify-content: center;
+}
+
+header h1{
+  font-size: 3vw
+}
+
+main{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row nowrap;
+}
+
+main img{
+  width:30em;
+}
+
+footer p{
+  display: flex;
+  text-align: center;
+}
