@@ -1,0 +1,20 @@
+article{
+  border: 1px solid black;
+  padding: 1vw;
+  width: 30%;
+}
+
+article img{
+  /* height: 20vw;
+  max-width: 30vw; */
+  width:100%;
+}
+
+article h2{
+  font-size: 3vw;
+}
+
+article .rightBtn{
+  margin: 1vw;
+  
+}

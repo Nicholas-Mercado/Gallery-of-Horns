@@ -37,7 +37,11 @@
   }
 }
 
-body{
+*{
+  text-align: center;
+}
+
+/* body{
   background-color: aliceblue;
 }
 
@@ -64,4 +68,4 @@ main img{
 footer p{
   display: flex;
   text-align: center;
-}
+} */
