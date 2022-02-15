@@ -1,9 +1,9 @@
-main {
+ main {
   display:flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-}
+} 
 
-Card {
-  margin: 5%;
-}
+.card {
+  margin-bottom: 2%;
+} 
