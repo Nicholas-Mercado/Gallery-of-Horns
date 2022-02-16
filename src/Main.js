@@ -16,9 +16,9 @@ class Main extends React.Component{
       <main >
       <Row  xs={1} md={2} lg={3}>
         {this.props.data.map((hornsB,index) => (
-          <Col>
+          <Col key={index}>
         <HornedBeast
-          key={index}
+          
           title={hornsB.title}
           image_url={hornsB.image_url}
           description={hornsB.description}
