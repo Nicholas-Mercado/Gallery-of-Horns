@@ -1,12 +1,22 @@
 import React from "react";
 import HornedBeast from "./HornedBeast";
 import './Main.css';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
 
 class Main extends React.Component{
   render(){
-    let finalData = [];
-    this.props.data.forEach((hornsB, index) =>{
-      finalData.push (
+    // let finalData = [];
+    // this.props.data.forEach((hornsB, index) =>{
+    //   finalData.push (
+    //   )
+    // })
+
+    return(
+      <main >
+      <Row  xs={1} md={2} lg={3}>
+        {this.props.data.map((hornsB,index) => (
+          <Col>
         <HornedBeast
           key={index}
           title={hornsB.title}
@@ -15,11 +25,10 @@ class Main extends React.Component{
           keyword={hornsB.keyword}
           horns={hornsB.horns}
           />
-      )
-    })
-    return(
-      <main>
-       {finalData}
+          </Col>
+        )
+        )}
+      </Row>
       </main>
     )
   }

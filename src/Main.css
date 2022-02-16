@@ -1,9 +1,10 @@
  main {
-  display:flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+ 
 } 
-
+.row{
+  text-align: center;
+}
 .card {
-  margin-bottom: 2%;
+  margin: auto;
+  margin-bottom: 4%;
 } 
