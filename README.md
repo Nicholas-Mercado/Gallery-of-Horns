@@ -70,3 +70,34 @@ Start time: 2:40 pm
 Finish time: 3:46 pm
 
 Actual time needed to complete: 1hr 4m
+
+
+## Lab 03: Display a Modal
+
+### contributors
+
+- Nicholas Mercado
+- Tanner Percival - (Refactoring)
+
+### Link
+
+  [react](https://reactjs.org/)
+
+
+  [Grid system](https://react-bootstrap.github.io/layout/grid/)
+
+### Comments 2
+
+
+
+### Feature times
+
+Number and name of feature: Feature #1: Display a Modal
+
+Estimate of time needed to complete: 3hrs
+
+Start time: 3 pm
+
+Finish time: 5pm
+
+Actual time needed to complete: 2 hrs
