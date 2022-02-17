@@ -9,7 +9,7 @@
 - Nicholas Mercado
 - Brady Camp (image syntax)
 
-### Link
+### Links
 
   [react](https://reactjs.org/)
 
@@ -21,13 +21,13 @@ I learned some of the basics of React and using properties. It felt good. So far
 
 ## Lab 02: React State and Props
 
-### contributors
+### Contributors
 
 - Nicholas Mercado
 - Micha Davis (column and row integration)
 - Tanner Percival - (Refactoring)
 
-### Link
+### Links
 
   [react](https://reactjs.org/)
 
@@ -39,7 +39,7 @@ I learned some of the basics of React and using properties. It felt good. So far
 
 Today was a crash course rendering information from a JSON file, implementing state changes, and using bootstrap to make my page more responsive. I found that by going back and working through my cod a little slower I was able to come to a better understanding of how it worked. I also notice that fixing bugs gave me the best understanding of the intricacies of how the code worked. That involved taking a little more time to understand why the bug fixed worked instead of just moving on and being happy that it just worked.
 
-### Feature times
+### Feature Times
 
 #### Number and name of feature: Feature #1: Display images
 
@@ -70,3 +70,32 @@ Start time: 2:40 pm
 Finish time: 3:46 pm
 
 Actual time needed to complete: 1hr 4m
+
+## Lab 03: Display a Modal
+
+### Contributors
+
+- Nicholas Mercado
+- Tanner Percival - (Refactoring)
+
+### Links
+
+  [react](https://reactjs.org/)
+
+  [Modal](https://react-bootstrap.github.io/layout/grid/)
+
+### Comments
+
+Today I implemented a Modal and refactored my code for efficiency. For implementing a Modal I found it quite intuitive. I was able to send a few functions into Main and update state in App. When It came to refactoring my code I found that much more challenging. While I understand the high-level concepts of where data comes and goes I have a tenuous grasp on data flow when it actually comes to working with code. I feel that this will become clearer to me with more code reviews.
+
+### Feature Times
+
+Number and name of feature: Feature #1: Display a Modal
+
+Estimate of time needed to complete: 3hrs
+
+Start time: 3 pm
+
+Finish time: 5pm
+
+Actual time needed to complete: 2 hrs

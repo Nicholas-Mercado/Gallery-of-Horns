@@ -18,12 +18,8 @@ class Main extends React.Component{
         {this.props.data.map((hornsB,index) => (
           <Col key={index}>
         <HornedBeast
-          
-          title={hornsB.title}
-          image_url={hornsB.image_url}
-          description={hornsB.description}
-          keyword={hornsB.keyword}
-          horns={hornsB.horns}
+          beast={hornsB}
+          handleShowModal={this.props.handleShowModal}
           />
           </Col>
         )

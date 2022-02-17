@@ -11,20 +11,27 @@ class HornedBeast extends React.Component {
     }
   }
 
+  
   handleWaves = () => {
     this.setState({
       heart: this.state.heart + 1,
     })
   }
+  
+  handleBeastClick = () => {
+    this.handleWaves();
+    this.props.handleShowModal(this.props.beast);
+  }
+
   render() {
     return (
       <>
-       <Card style={{ width: '33rem' }} >
-          <Card.Img onClick={this.handleWaves} src={this.props.image_url} alt={this.props.description} title={this.props.title} />
+       <Card style={{ width: '25rem' }} className="p-2 h-100" >
+          <Card.Img onClick={this.handleBeastClick} src={this.props.beast.image_url} alt={this.props.beast.description} title={this.props.beast.title}/>
             <Card.Body>
-              <Card.Title>{this.props.title}</Card.Title>
+              <Card.Title>{this.props.beast.title}</Card.Title>
               <Card.Text>❤️:{this.state.heart}</Card.Text>
-              <Card.Text>{this.props.description}</Card.Text>
+              <Card.Text>{this.props.beast.description}</Card.Text>
             </Card.Body>
           </Card>
       </>
