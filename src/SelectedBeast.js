@@ -10,7 +10,7 @@ render() {
           <Modal.Title>{this.props.beast.title}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-        <img style={{width: '100%'}} src={this.props.beast.image_url}/>
+        <img style={{width: '100%'}} src={this.props.beast.image_url} alt={this.props.beast.image_url} title={this.props.beast.description}/> 
         <p>{this.props.beast.description}</p>
         </Modal.Body>
       </Modal>
