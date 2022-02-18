@@ -45,7 +45,7 @@ class App extends React.Component{
     } else if(selected === 'One-Hundred'){
       let newData = data.filter(data => data.horns === 100)
       this.setState({data: newData})
-    } else if(selected === 'All'){
+    } else {
       this.setState({data: data})
     }
   }
