@@ -99,3 +99,39 @@ Start time: 3 pm
 Finish time: 5pm
 
 Actual time needed to complete: 2 hrs
+
+
+## Lab 04: Display a Modal
+
+### Contributors
+
+- Nicholas Mercado
+- Tanner Percival - (passing data)
+- Andres Mills Gallego - (bootstrap styling)
+
+### Links
+
+  [react](https://reactjs.org/)
+
+  [All Bootstrap CSS classes](https://bootstrapshuffle.com/classes)
+
+  [Get Bootstrap](https://getbootstrap.com/)
+
+
+### Comments
+
+Today, I learned how to create a drop-down selector and create the logic to filter my images using key names in my data. I pushed myself a little today by making the filter its own component. One this is very much in the spirit of React and from what I understand its industry standard. Industry-standard is what I need to aim for the rest of this Boot-camp. Second I am still a little iffy on how React passes data. I understood the birds-eye view but when it came to the code I would get turned around. This really helps me make some big steps forward in understanding when you use prop and when to use state. I also had a big ah-ha moment when I started to visualize how to data from component to child component in the code. 
+
+
+
+### Feature Times
+
+Number and name of feature: Feature #1: Number of Horns
+
+Estimate of time needed to complete: 2hrs
+
+Start time: 130 pm
+
+Finish time: 4:00pm
+
+Actual time needed to complete: 2 1/2hrs
