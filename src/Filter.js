@@ -1,6 +1,6 @@
 import React from "react";
 import { Form, Container } from 'react-bootstrap';
-
+import './filter.css';
 
 class Filter extends React.Component{
 
@@ -12,8 +12,8 @@ class Filter extends React.Component{
     return(
      <>
     <Container>
-      <Form>
-          <Form.Label># of horns filter</Form.Label>
+      <Form >
+          <Form.Label ># of horns filter</Form.Label>
           <Form.Select onChange={this.props.handleSelect}>
             <option value={"All"}>All</option>
             <option value={"One"}>One</option>

@@ -13,7 +13,7 @@ class Main extends React.Component{
         data={this.props.data}
         handleSelect={this.props.handleSelect}
       />
-      <Row  xs={1} md={2} lg={3}>
+      <Row className="text-center"  xs={1} sm={2}  md={2}  lg={3}  xl={4}>
         {this.props.data.map((hornsB,index) => (
           <Col key={index}>
         <HornedBeast

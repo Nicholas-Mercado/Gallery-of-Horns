@@ -2,8 +2,15 @@
  
 } 
 .row{
-  text-align: center;
+  margin: auto;
+  width:80%
 }
 .card {
   margin: auto;
+  margin-bottom: 10%;
+  margin-top: 5%;
 } 
+
+.col{
+  margin-bottom: 2%;
+}
